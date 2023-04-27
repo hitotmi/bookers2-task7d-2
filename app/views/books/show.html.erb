@@ -26,6 +26,9 @@
             <p>コメント件数：<%= @book.book_comments.count %></p>
           <td>
           <td>
+            <%= render "star",book: @book %>
+          </td>
+          <td>
             <% if @book.user == current_user %>
               <%= link_to 'Edit', edit_book_path(@book), class: "btn btn-sm btn-success" %>
             <% end %>
@@ -37,10 +40,10 @@
           </td>
         </tr>
       </table>
-    
+
       <div id="comment-area">
         <%= render "book_comments/comment",book: @book,book_comment: @book_comment %></div>
-      </div> 
+      </div>
     </div>
   </div>
 </div>

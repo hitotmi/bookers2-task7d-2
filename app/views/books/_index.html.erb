@@ -25,7 +25,9 @@
             コメント数：<%= book.book_comments.count %>
           </p>
         </td>
-
+        <td>
+          <%= render "books/star", book: book %>
+        </td>
       </tr>
     <% end %>
   </tbody>

@@ -1,24 +1,7 @@
-# README
+# 応用課題7d
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 実装する機能
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+新規投稿のタイミングで5段階評価をつけられる。
+本の一覧ページと詳細ページに評価を表示させる。
+ユーザーの詳細ページに評価を表示させる。
